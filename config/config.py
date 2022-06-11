@@ -1,11 +1,4 @@
-#
-# Copyright (C) 2021-2022 by TeamYukki@Github, < https://github.com/TeamYukki >.
-#
-# This file is part of < https://github.com/TeamYukki/YukkiMusicBot > project,
-# and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/TeamYukki/YukkiMusicBot/blob/master/LICENSE >
-#
-# All rights reserved.
+# 𝐊𝐚𝐚𝐥𝐌𝐮𝐬𝐢𝐜 // @𝐢𝐚𝐦𝐤𝐚𝐚𝐥
 
 import re
 import sys
@@ -14,7 +7,8 @@ from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
 
-load_dotenv()
+if os.path.exists("local.env"):
+    load_dotenv("local.env")
 
 # Get it from my.telegram.org
 API_ID = int(getenv("API_ID", ""))
