@@ -36,46 +36,30 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
-            )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/XDxKING",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup {videoid}|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text="❰𝗚𝗿𝗼𝘂𝗽❱",
+                url=f"https://t.me/teamxdchat",
             )
         ],
     ]
     return buttons
-
+       
 
 def telegram_markup_timer(_, chat_id, played, dur):
     bar = random.choice(selections)
     buttons = [
         [
             InlineKeyboardButton(
-                text=f"{played} {bar} {dur}",
-                callback_data="GetTimer",
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/XDxKING",
+            ),
+            InlineKeyboardButton(
+                text="❰𝗚𝗿𝗼𝘂𝗽❱",
+                url=f"https://t.me/teamxdchat",
             )
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            ),
         ],
     ]
     return buttons
@@ -88,17 +72,12 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_2"],
-                callback_data=f"add_playlist {videoid}",
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/XDxKING",
             ),
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
+                text="❰𝗚𝗿𝗼𝘂𝗽❱",
+                url=f"https://t.me/teamxdchat",
             )
         ],
     ]
@@ -109,12 +88,13 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["PL_B_3"],
-                callback_data=f"PanelMarkup None|{chat_id}",
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/XDxKING",
             ),
             InlineKeyboardButton(
-                text=_["CLOSEMENU_BUTTON"], callback_data="close"
-            ),
+                text="❰𝗚𝗿𝗼𝘂𝗽❱",
+                url=f"https://t.me/teamxdchat",
+            )
         ],
     ]
     return buttons
