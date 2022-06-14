@@ -41,7 +41,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/teamxdchat",
+                url=f"https://t.me/SWAGxHOUSE",
             )
         ],
     ]
@@ -58,7 +58,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
             ),
             InlineKeyboardButton(
                 text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/teamxdchat",
+                url=f"https://t.me/SWAGxHOUSE",
             )
         ],
     ]
@@ -77,7 +77,7 @@ def stream_markup(_, videoid, chat_id):
             ),
             InlineKeyboardButton(
                 text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/teamxdchat",
+                url=f"https://t.me/SWAGxHOUSE",
             )
         ],
     ]
@@ -93,7 +93,7 @@ def telegram_markup(_, chat_id):
             ),
             InlineKeyboardButton(
                 text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/teamxdchat",
+                url=f"https://t.me/SWAGxHOUSE",
             )
         ],
     ]
