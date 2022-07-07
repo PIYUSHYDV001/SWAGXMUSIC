@@ -73,11 +73,15 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="❰𝙊𝙬𝙣𝙚𝙧❱",
-                url=f"https://t.me/XDxKING",
+                url=f"https://t.me/SankiXfighter",
             ),
             InlineKeyboardButton(
-                text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/SWAGxHOUSE",
+                text="❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱",
+                url=f"https://t.me/GenesisXHackxOfficial",
+            ),
+            InlineKeyboardButton(
+                text="❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱",
+                url=f"https://t.me/SWAGxHOUSExCHAT",
             )
         ],
     ]
@@ -89,11 +93,15 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="❰𝙊𝙬𝙣𝙚𝙧❱",
-                url=f"https://t.me/XDxKING",
+                url=f"https://t.me/SankiXfighter",
             ),
             InlineKeyboardButton(
-                text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/SWAGxHOUSE",
+                text="❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱",
+                url=f"https://t.me/GenesisXHackxOfficial",
+            ),
+            InlineKeyboardButton(
+                text="❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱",
+                url=f"https://t.me/SWAGxHOUSExCHAT",
             )
         ],
     ]
