@@ -36,13 +36,19 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱",
-                url=f"https://t.me/XDxKING",
+                text="❰𝙐𝙥𝙙𝙖𝙩𝙚𝙨❱",
+                url=f"https://t.me/GenesisXHackxOfficial",
             ),
             InlineKeyboardButton(
-                text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/SWAGxHOUSE",
+                text="❰𝙎𝙪𝙥𝙥𝙤𝙧𝙩❱",
+                url=f"https://t.me/SWAGxHOUSExCHAT",
             )
+        ],
+        [
+            InlineKeyboardButton(
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/SankiXfighter",
+            ),
         ],
     ]
     return buttons
@@ -53,13 +59,19 @@ def telegram_markup_timer(_, chat_id, played, dur):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱",
-                url=f"https://t.me/XDxKING",
+                text="❰𝙐𝙥𝙙𝙖𝙩𝙚𝙨❱",
+                url=f"https://t.me/GenesisXHackxOfficial",
             ),
             InlineKeyboardButton(
-                text="❰𝗚𝗿𝗼𝘂𝗽❱",
-                url=f"https://t.me/SWAGxHOUSE",
+                text="❰𝙎𝙪𝙥𝙥𝙤𝙧𝙩❱",
+                url=f"https://t.me/SWAGxHOUSExCHAT",
             )
+        ],
+        [
+            InlineKeyboardButton(
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/SankiXfighter",
+            ),
         ],
     ]
     return buttons
@@ -72,17 +84,19 @@ def stream_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱",
-                url=f"https://t.me/SankiXfighter",
-            ),
-            InlineKeyboardButton(
-                text="❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱",
+                text="❰𝙐𝙥𝙙𝙖𝙩𝙚𝙨❱",
                 url=f"https://t.me/GenesisXHackxOfficial",
             ),
             InlineKeyboardButton(
-                text="❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱",
+                text="❰𝙎𝙪𝙥𝙥𝙤𝙧𝙩❱",
                 url=f"https://t.me/SWAGxHOUSExCHAT",
             )
+        ],
+        [
+            InlineKeyboardButton(
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/SankiXfighter",
+            ),
         ],
     ]
     return buttons
@@ -92,17 +106,19 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="❰𝙊𝙬𝙣𝙚𝙧❱",
-                url=f"https://t.me/SankiXfighter",
-            ),
-            InlineKeyboardButton(
-                text="❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱",
+                text="❰𝙐𝙥𝙙𝙖𝙩𝙚𝙨❱",
                 url=f"https://t.me/GenesisXHackxOfficial",
             ),
             InlineKeyboardButton(
-                text="❰𝗦𝘂𝗽𝗽𝗼𝗿𝘁❱",
+                text="❰𝙎𝙪𝙥𝙥𝙤𝙧𝙩❱",
                 url=f"https://t.me/SWAGxHOUSExCHAT",
             )
+        ],
+        [
+            InlineKeyboardButton(
+                text="❰𝙊𝙬𝙣𝙚𝙧❱",
+                url=f"https://t.me/SankiXfighter",
+            ),
         ],
     ]
     return buttons
